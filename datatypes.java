@@ -1,3 +1,4 @@
+//this code is for reference and is copied from gfg, not written by me 
 public class DataTypesDemo {
     public static void main(String[] args) {
 

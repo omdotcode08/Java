@@ -3,6 +3,7 @@ class switchcase{
     public static void main(String[] args){
        week();
        month();
+       calculator();
     }
 
     public static void month(){
@@ -78,6 +79,30 @@ class switchcase{
     }
 
     public static void calculator(){
-        
+        System.out.println("Enter the first number: ");
+        Scanner inputA= new Scanner(System.in);
+        int A = inputA.nextInt();
+        System.out.println("Enter the Second number: ");
+        Scanner inputB= new Scanner(System.in);
+        int B = inputB.nextInt();
+        System.out.println("Enter the operation that you want to perform on the two operands that you entered:");
+        System.out.println(" 1] Addition (+)\n 2] Substraction (-)\n 3] Division (%)\n 4] Multiplication (*)");
+        Scanner inputO = new Scanner(System.in);
+        int O = inputO.nextInt();
+        switch(O){
+            case 1:
+                System.out.println("A+B=" + (A+B));
+            break;
+            case 2:
+                System.out.println("A-B=" + (A-B));
+            break;
+            case 3:
+                System.out.println("A/B=" + (A/B));
+            break;
+            case 4:
+                System.out.println("A*B=" + (A*B));
+            break;
+        }
+
     }
 }
