@@ -4,6 +4,7 @@ class switchcase{
        week();
        month();
        calculator();
+       grades();
     }
 
     public static void month(){
@@ -103,6 +104,28 @@ class switchcase{
                 System.out.println("A*B=" + (A*B));
             break;
         }
-
+    }
+    public static void grades(){
+        System.out.println("Enter the Marks (0-100)");
+        System.out.println(" 1] 90-100\n 2] 80-89\n 3] 70-79\n 4] 60-69\n 5] Below 60\n");
+        Scanner input= new Scanner(System.in);
+        int marks = input.nextInt();
+        switch(marks){
+            case 1:
+                System.out.println("Congratulations, you have scored O grade!");
+            break;
+            case 2:
+                System.out.println("Excellent, you have scored A grade!");
+            break;
+            case 3:
+                System.out.println("Good Job, you have scored B grade!");
+            break;
+            case 4:
+                System.out.println("Well try, you have scored C grade!");
+            break;
+            case 5:
+                System.out.println("Work harder next time, you have scored D grade!");
+            break;
+        }
     }
 }
