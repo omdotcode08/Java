@@ -1,4 +1,4 @@
-public class VariablesDemo {
+public class variables{
 
     // Instance variable (belongs to each object)
     int instanceVar = 10;
@@ -17,10 +17,10 @@ public class VariablesDemo {
 
     public static void main(String[] args) {
         // Creating object
-        VariablesDemo obj1 = new VariablesDemo();
+        variables obj1 = new variables();
         obj1.showVariables();
 
         // Accessing static variable directly using class name
-        System.out.println("Accessing Static Variable via class: " + VariablesDemo.staticVar);
+        System.out.println("Accessing Static Variable via class: " + variables.staticVar);
     }
 }
