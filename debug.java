@@ -22,5 +22,26 @@
             map.put(array[i], i);
         }
         System.out.println(map);
+
+
+
+
+        int[] arr = new int[]{1,5,0,6,9,0,0,1,2,0};
+        int[] output = new int[arr.length];
+        int j = output.length - 1;
+        int start = 0;
+        for(int i  = 0 ; i < arr.length ; i++){
+            if (arr[i] == 0) {
+                output[j] = 0;
+                j--;
+            }
+            else{
+                output[start] = arr[i];
+                start ++;
+            }
         }
+        for(int i = 0 ; i < output.length ; i++){
+            System.out.print(output[i]);
+            }
     }
+}

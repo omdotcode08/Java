@@ -1,7 +1,7 @@
 //this code is for reference and is copied from gfg, not written by me 
 //All the premitive datatypes are stored in stack memory
 //All the non primitive datatypes are stored in Heap memory
-// Whereever new keyword is used to create an instance of a non primtive datatype , it is stored in heap
+// Whereever new keyword is used to create an instance of a non primtive datatype , it is stored in heap 
  class DataTypesDemo {
     public static void main(String[] args) {
 
